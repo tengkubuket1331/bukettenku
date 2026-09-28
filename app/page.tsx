@@ -52,7 +52,7 @@ export default function Page() {
     <main className="site-shell">
       <div className="announcement">
         <span>Pre-order wisuda dibuka sampai 20 Juni</span>
-        <a href="https://instagram.com" target="_blank" rel="noreferrer">
+        <a href="https://instagram.com/riskialft_" target="_blank" rel="noreferrer">
           Pesan sekarang <ArrowUpRight size={14} aria-hidden="true" />
         </a>
       </div>
@@ -109,7 +109,7 @@ export default function Page() {
                 <span className="tab-number">0{index + 1}</span><span className="tab-label">{bouquet.label}</span><span className="tab-arrow"><ArrowUpRight size={18} /></span>
               </button>
             ))}
-            <a className="all-link" href="https://instagram.com" target="_blank" rel="noreferrer">Lihat semua di Instagram <ArrowUpRight size={15} /></a>
+            <a className="all-link" href="https://instagram.com/riskialft_" target="_blank" rel="noreferrer">Lihat semua di Instagram <ArrowUpRight size={15} /></a>
           </div>
           <div className={`featured-bouquet ${selected.color}`}>
             <div className="featured-copy"><span className="featured-note">{selected.note}</span><h3>{selected.name}</h3><p>{selected.description}</p><a href="https://instagram.com" target="_blank" rel="noreferrer">Tanya ketersediaan <ArrowUpRight size={16} /></a></div>
@@ -126,11 +126,11 @@ export default function Page() {
       </section>
 
       <section className="steps-section" id="cara-pesan">
-        <div className="section-heading compact"><div><p className="eyebrow">semudah itu</p><h2>Dari ide jadi <em>nyata.</em></h2></div><a className="text-link" href="https://wa.me/6281234567890" target="_blank" rel="noreferrer">Atau chat via WhatsApp <ArrowUpRight size={16} /></a></div>
+        <div className="section-heading compact"><div><p className="eyebrow">semudah itu</p><h2>Dari ide jadi <em>nyata.</em></h2></div><a className="text-link" href="https://wa.me/6283174422888" target="_blank" rel="noreferrer">Atau chat via WhatsApp <ArrowUpRight size={16} /></a></div>
         <div className="steps-grid"><div className="step"><span>01</span><h3>Kirim referensi</h3><p>DM kami foto, warna, atau cerita yang kamu mau.</p></div><div className="step"><span>02</span><h3>Kami rangkai</h3><p>Kamu dapat preview dan update prosesnya.</p></div><div className="step"><span>03</span><h3>Siap jadi kejutan</h3><p>Diantar atau diambil sesuai waktu yang kamu pilih.</p></div></div>
       </section>
 
-      <footer className="footer" id="cerita"><div className="brand"><span className="brand-mark"><Leaf size={17} strokeWidth={1.8} /></span><span>rangkai<span className="brand-dot">.</span></span></div><p>Small gestures, thoughtfully made.</p><div className="footer-links"><a href="https://instagram.com/riskialft_" target="_blank" rel="noreferrer"><Camera size={16} /> Instagram</a><a href="https://wa.me/6281234567890" target="_blank" rel="noreferrer"><MessageCircle size={16} /> WhatsApp</a></div></footer>
+      <footer className="footer" id="cerita"><div className="brand"><span className="brand-mark"><Leaf size={17} strokeWidth={1.8} /></span><span>rangkai<span className="brand-dot">.</span></span></div><p>Small gestures, thoughtfully made.</p><div className="footer-links"><a href="https://instagram.com/riskialft_" target="_blank" rel="noreferrer"><Camera size={16} /> Instagram</a><a href="https://wa.me/6283174422888" target="_blank" rel="noreferrer"><MessageCircle size={16} /> WhatsApp</a></div></footer>
       <a className="floating-dm" href="https://instagram.com/riskialft_" target="_blank" rel="noreferrer"><Camera size={18} /> <span>DM untuk pesan</span></a>
     </main>
   )

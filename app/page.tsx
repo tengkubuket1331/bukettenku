@@ -50,13 +50,6 @@ export default function Page() {
 
   return (
     <main className="site-shell">
-      <div className="announcement">
-        <span>Pre-order wisuda dibuka sampai 20 Juni</span>
-        <a href="https://instagram.com/riskialft_" target="_blank" rel="noreferrer">
-          Pesan sekarang <ArrowUpRight size={14} aria-hidden="true" />
-        </a>
-      </div>
-
       <header className="navbar">
         <a className="brand" href="#top" aria-label="Rangkai ke halaman utama">
           <span className="brand-mark"><Leaf size={17} strokeWidth={1.8} /></span>
